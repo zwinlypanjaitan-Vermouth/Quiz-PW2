@@ -1,16 +1,23 @@
-# React + Vite
+# Todo List – React.js
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Aplikasi To-Do List (frontend only) dengan React.js + Vite. Data memakai dummy data dan dikelola dengan React State.
 
-Currently, two official plugins are available:
+## Fitur
+- Menampilkan daftar tugas
+- Melihat detail tugas
+- Menambah, memperbarui, dan menghapus tugas
+- Konfirmasi penghapusan dan notifikasi (toast)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Cara Menjalankan
+npm install
+npm run dev
 
-## React Compiler
+## Screenshot
+<img width="956" height="538" alt="Screenshot 2026-11-17 000613" src="https://github.com/user-attachments/assets/4e458d50-2e86-4785-b8ec-16d9391ede3c" />
+<img width="959" height="539" alt="Screenshot 2026-11-17 000557" src="https://github.com/user-attachments/assets/b52bbb74-22ff-4ff5-957f-4ba23e0e334d" />
+<img width="959" height="539" alt="Screenshot 2026-11-17 000758" src="https://github.com/user-attachments/assets/a0638032-a97a-41b2-8667-ee845a4cc031" />
+<img width="959" height="539" alt="Screenshot 2026-11-17 000728" src="https://github.com/user-attachments/assets/8d4fe26b-743c-49a0-a8ca-7bccb7fc8782" />
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
 
-## Expanding the ESLint configuration
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+
